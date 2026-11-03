@@ -1,0 +1,28 @@
+ZELLMARKETMC — MULAI DI SINI
+
+1. Extract ZIP ini.
+2. Buka folder ZellMarketMC di VS Code.
+3. Pastikan terminal berada di folder yang ada package.json.
+4. Jalankan: npm install
+5. Salin .env.example menjadi .env.local lalu isi datanya.
+6. Jalankan: npm run dev
+7. Buka: http://localhost:3000
+
+UNTUK VERCEL:
+- Import repository GitHub.
+- Root Directory pilih folder yang berisi package.json DAN folder app.
+- Jika package.json/app ada di root repo, pilih ./
+- Jika berada di dalam folder ZellMarketMC, pilih ZellMarketMC.
+- Jangan pilih folder app.
+- Masukkan semua Environment Variables dari .env.example di Vercel.
+- Deploy.
+
+ADMIN:
+Daftar menggunakan jellyharman6@gmail.com, verifikasi email, lalu login.
+Hanya email tersebut yang mendapat akses admin.
+
+PENTING:
+Jangan upload .env.local ke GitHub.
+API Key KiPay dan Supabase Service Role Key hanya boleh disimpan di Environment Variables server.
+Isi nomor WhatsApp dan link Discord di environment variables sesuai kontak kamu.
+Jalankan supabase/schema.sql di Supabase SQL Editor sebelum menggunakan website.
